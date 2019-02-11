@@ -4,7 +4,7 @@ function setup() {
 
 	data = [];
 	maxDataValue = 1000;
-	dataPoints = 800;
+	dataPoints = 500;
 
 	for (let i = 0; i < dataPoints; i++) {
 
@@ -17,7 +17,7 @@ function setup() {
 	//QRS Setup
 	index = [];
 	
-	qrs = new QRS(data, index, 40, true);
+	qrs = new QRS(data, index, 60, true);
 
 }
 
